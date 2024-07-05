@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AmbaShakti - Corporate Profile</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        
+        <link href="css/style.css" rel="stylesheet">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+function hidePanel()
+    {
+        p=document.getElementById("myDIV");
+        
+         if (p.style.display == 'block') 
+         {
+            p.style.display = 'none';
+            
+        }
+
+    }
+$(document).ready(function(){
+  $("#exp").click(function(){
+  $(this).text($(this).text() == 'Explore =' ? 'Close x' : 'Explore =');
+    $("#myDIV").animate({
+      height: 'toggle'
+    });
+  });
+});
+</script> 
+
+
+
+
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            
+             <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/ambalogo.jpg" style="width:20%; height: auto;"></a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"> </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                              
+                            </div>
+                         
+                                <!-- <a class="btn" id="b1" onclick="myFunction()"> Explore   &#x2631;</a> -->
+                                <button id="exp" style="align-items: right;">Explore =</button>
+                                <div class="dropdown">
+                                <button class="dropbtn">Quick Info</button>
+                                    <div class="dropdown-content">
+                                    <a href="index.html">Home</a>
+                                    <a href="corporate-profile.html">Corporate Profile</a>
+                                    <a href="management-team.html">Management Team</a>
+                                    <a href="products.html">Rebars</a>
+                                    <a href="products.html#angles-channels">Angles & Channels</a>
+                                    <a href="lpg.html">LPG Cylinders</a>
+                                    <a href="media.html">In The Media</a>
+                                     <a href="index.html#contact-us">Contact Us</a>
+                                    <a href="#">Latest Events</a>
+                                    </div>
+                                </div>
+                                <div id="extramenu">
+                                <!-- <a href="" class="nav-item nav-link"> Quick Info </a> -->
+                                <!--<a href="tel:+01142485225" class="nav-item nav-link"> Call </a>-->
+
+                                <!--<a href="" class="nav-item nav-link"> VISIT &nbsp;<i class="fa fa-search"></i></a>-->
+                                
+                               <a href="mailto:info@ambashakti.com" class="nav-item nav-link"><span style="border-right: 1px solid gray; border-left: 1px solid gray; padding: 10px;text-transform:none;"> info@ambashakti.com </span> </a>
+                                 <a href="index.html#contact-us" class="nav-item nav-link">Contact Us</a>
+                                <!-- <a class="btn" href="#">Get A Quote</a> -->
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
+
+
+<!--Start of Popup Menu-->
+
+    <div id="myDIV" class="container-fluid">
+        <div class="container" style="max-width: 100%; height: auto;">
+            <div class="row" style="padding:0px;">
+               <div class="col-6 col-sm-3" style="padding:0px;">
+                    <div class="card" id="card-trans">
+                        <div style="text-align:center; font-weight:bolder;color: #FF8C00;">
+                            ABOUT US
+                        </div>
+                         <img src="img/mnu-about.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="nav-item" style="padding-top: 10px;">
+                                <a href="corporate-profile.html" class="card-link">CORPORATE PROFILE </a>
+                                <a href="management-team.html" class="card-link">MANAEMENT TEAM </a>
+                                <a href="management-team.html#accolades" class="card-link" onclick="hidePanel()">ACCOLADES  </a>
+                                <a href="management-team.html#our_clients" class="card-link" onclick=hidePanel()>CLIENTS </a>
+                            </div>
+                        </div>
+                        <div class="card-body" style="background-color:black;">
+                            <div class="card-text"></div>
+                        </div>
+                    
+                </div>
+                </div>
+                <div class="col-6 col-sm-3" style="padding:0px;">
+                <div class="card" id="card-trans">
+                    <div style="text-align:center;">
+                        OUR BUSINESS
+                    </div>
+                    <img src="img/mnu-business.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-img-overlay d-flex flex-column">
+                          <div class="nav-item" style="padding-top: 10px;">
+                                <a href="our-business.html" class="card-link">STEEL </a>
+                                <a href="lpg.html" class="card-link">LPG CYLINDERS</a>
+                                <a href="lpg.html#real-estate" class="card-link">Real ESTATE </a>
+
+                            </div>
+                    </div>
+                         <div class="card-body" style="background-color:black;">
+                            <div class="card-text"></div>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="col-6 col-sm-3" style="padding:0px;">
+                <div class="card" id="card-trans">
+                    <div style="text-align:center;">
+                        OUR PRODUCTS
+                    </div>
+                    <img src="img/product.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-img-overlay flex-column">
+                        <div class="nav-item" style="padding-top: 10px;">
+                            <a href="products.html" class="card-link">REBARS</a>
+                            <a href="products.html#angles-channels" class="card-link">ANGLES & CHANNELS</a>
+                            <a href="products-billets.html" class="card-link">BILLETS</a>
+                            <a href="products-billets.html#sponge-iron" class="card-link">SPONGE IRON</a>
+                        </div>
+                    </div>
+                    
+                         <div class="card-body" style="background-color:black;">
+                            <div class="card-text"></div>
+                        </div>
+                                
+                            
+                    
+                </div>
+            </div>
+            <div class="col-6 col-sm-3" style="padding:0px;">
+                <div class="card" id="card-trans">
+                    <div style="text-align:center;">
+                        IN THE MEDIA
+                    </div>
+                    <img src="img/mnu-media.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-img-overlay flex-column">
+                        <div class="nav-item" style="padding-top: 10px;">
+                            <a href="media.html" class="card-link">LATEST EVENT</a>
+                            <a href="media.html#media-coverage" class="card-link">MEDIA COVERAGE</a>
+                            <a href="media.html#compaigns" class="card-link">CAMPAIGNS</a>
+                        </div>
+
+                    </div>
+                         <div class="card-body" style="background-color:black;">
+                            <div class="card-text"></div>
+                        </div>
+                    
+                </div>
+            </div>
+          
+            <div class="w-100"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- End of Popup Menu-->
+
+<!-- Ambashakti Logo-->
+
+<div class="green-logo wow fadeIn" data-wow-delay="0.3s">
+    <img src="images/ambalogo.jpg" style="width: 15%;height: auto;">
+</div>
+<!-- Logo end -->
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <img src="images/team-text-0-1.png" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+</div>
+ 
+<div class="container-fluid wow fadeInUp" data-wow-delay="0.3s" >
+   <div class="row" style="background-color:whitesmoke;">
+        <div class="col-md-6" style=" padding: 0px;">
+            <img src="images/team01-0-0.png" style="max-width: 900%;height: 100%;">
+        </div>
+        <div class="col-md-6" style="padding:0px">
+            <div class="container" style="padding: 25px;text-align:justify;text-justify:letter-spacing;">
+                <br>
+                <!-- <img src="images/team01-1-0.png" style="max-width: 100%;height: auto;"> -->
+                <span style="border-bottom:2px solid orange;font-size: 28px; font-weight: bolder;">
+                    MR. SK GOEL 
+                </span>
+                <span style="color:orange;font-size: 23px;">
+                    (FOUNDER )
+                </span>
+                <p style="padding-top:10px; font-size: 22px;letter-spacing: 1px;font-family: 'Myriad Pro';padding-right: 20px;">
+                  
+
+                The visionary Shri S.K. Goel with an experience of more than 50 years in the steel sector has been leading the group to the utmost heights of success. As the captain of the group, he always believes in hard work and team spirit which is perhaps why this ship has continued to successfully remain afloat. Excellent and extraordinary in his work, he doesn’t just understand the market but deeply comprehends consumer behaviour. This team spirit backed by technology has turned Amba Shakti Steels into a grand success.
+            </p>
+        </div>
+        </div>
+    </div>
+
+<!--Team 3-->
+
+    <div class="row" style="background-color:whitesmoke;">
+        <div class="col-md-6" style=" padding: 0px;">
+            <img src="images/team03-0-0.png" style="max-width: 100%;height:auto;">
+        </div>
+        <div class="col-md-6" style="padding:0px">
+            <!-- <img src="images/team03-1-0.png" style="max-width: 100%;height:auto;"> -->
+            <br>
+
+            <div class="container" style="padding: 25px;text-align:justify;text-justify:letter-spacing;">
+           
+         
+             <span style="border-bottom:2px solid orange;font-size: 28px; font-weight: bolder;">
+                MR. PANKAJ GOEL 
+                </span>
+                <span style="color:orange;font-size: 23px;">
+                    (VICE-CHAIRMAN)
+                </span>
+                <p style="padding-top:10px; font-size: 22px;letter-spacing: 1px;font-family: 'Myriad Pro';padding-right: 20px;">
+            
+                 With his vision, unshakable determination and persistent hard work, Mr. Pankaj Goel is leading the group to the new horizons. With his belief and strong leadership qualities, he gave a new dimension to the group as a whole.
+                His honesty, towards work and people, garners trust and respect. A visionary leader, far-sighted, driven and inspired by what the group can become. He knows how to combat challenges with ease. His passion and dedication influence and inspire all around him.
+            </p>
+        </div>
+        </div>
+    </div>
+
+<!--Team 4-->
+ 
+
+    <div class="row">
+        <div class="col-md-6" style=" padding: 0px;">
+             <div class="container" style="padding: 25px;text-align:justify;">
+           
+           
+            <br>
+
+             <span style="border-bottom:2px solid orange;font-size: 28px; font-weight: bolder;">
+                NEXT GENERATION 
+                </span>
+                <span style="color:orange;font-size: 28px;">
+                    OF STEEL
+                </span>
+
+                <p style="padding-top:10px; font-size: 22px;letter-spacing: 1px;font-family: 'Myriad Pro';padding-right: 20px;">
+           <!-- Next Generation of steel: A young, energetic and dynamic generation is ready to take the Group to the unprecedented success following the tradition and values of the group. Mr Akshat Goel, Mr Dhruv Goel and Mr Manik Goel are furthering the potential of the group with their fresh ideas and charisma. They have the quality to rise above all the challenges, tough circumstances and to understand the ever-changing landscape of the business. With this new generation, the group has become a perfect blend of experience and fresh ideas with a futuristic vision. -->
+        A young  energetic and dynamic generation is ready to  take the group to the unprecedented sucesss following the tradition and values of the group. Mr Manik Goel is furthering the potential of the group with his fresh ideas and charisma. He has the quality to rise above all the chailenges, tough circumstances and to understand the ever-charging landscape of the business. With this new generation,the group has became a perfect blend of experience and fresh ideas with a futuristic vision.
+        </p>
+   </div>
+
+        </div>
+        <div class="col-md-6" style="padding:5px">
+            <img src="images/team04-1-0.png" style="width: 100%;height:auto;">
+        </div>
+    </div>
+    <a id="accolades">
+    <div class="row">
+        <div class="col" style="padding:0px; ">
+
+            <img src="images/team05.png" style="max-width: 100%;height:auto;"> 
+        </div>
+    </div>
+</a>
+    <div class="row">
+        <div class="col" style="padding:0px; ">
+
+            <img src="images/team06.png" style="max-width: 100%;height:auto;"> 
+
+        </div>
+    </div>
+
+    <div class="row" id="our_clients">
+        <div class="col" style="padding:0px; ">
+
+            <img src="images/team07.png" style="max-width: 100%;height:auto;"> 
+
+        </div>
+    </div>
+
+
+<div class="container-fluid" style="padding:0px;background-color:#F2F4F5;">
+
+    <div class="row" style="background-color:#F2F4F5;">
+        <div class="col" style="padding:0px; ">
+        
+            <img src="images/team08.png" style="max-width: 100%;height:auto;"> 
+          
+         
+          <!--  <span style="float: right;padding-right: 100px;">-->
+       
+          <!--<button  class="btnx btn-1" onclick=window.location.href="#"-->
+
+ 
+          <!--                              >and many more</button>-->
+          <!--                          </span>-->
+        </div>
+        </div>
+    </div>
+
+
+
+<div class="container-fluid" style="padding:0px;background-color:#F2F4F5;">
+
+    <div class="row" style="background-color:#F2F4F5;">
+        <div class="col" style="padding:0px; ">
+        
+            <img src="images/team09.png" style="max-width: 100%;height:auto;"> 
+          
+         
+          <!--  <span style="float: right;padding-right: 100px;">-->
+       
+          <!--<button  class="btnx btn-1" onclick=window.location.href="#"-->
+
+ 
+          <!--                              >and many more</button>-->
+          <!--                          </span>-->
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+             <!-- Footer Start -->
+            <div class="footer wow fadeIn" data-wow-delay="0.3s" style="margin-top: 0px;">
+                <!-- <div class="container"> -->
+                    
+                <div class="container footer-menu">
+                     <div class="footer-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fa fa-rss"></i></a>
+                                    <a href=""><i class="fab fa-google-plus-g"></i></a>
+                           
+                    </div>
+                    
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#">AmbaShakti</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p> Designed by : Bijan ads & Films</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
